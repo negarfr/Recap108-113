@@ -38,7 +38,7 @@ public class Get05 extends AutomationExcerciseBaseUrl {
 
         //Do assertion
         //1)Status code is 200
-
+        assertEquals(200,response.statusCode());
 
         // 2)Print all ids greater than 30 on the console
         //   Assert that there are 10 ids greater than 30
@@ -72,8 +72,6 @@ public class Get05 extends AutomationExcerciseBaseUrl {
                   // using map to change the data in Lambda
         System.out.println("totalPriceLambda = " + totalPriceLambda);
          assertEquals(41864,totalPriceLambda);
-
-
 
 
     }

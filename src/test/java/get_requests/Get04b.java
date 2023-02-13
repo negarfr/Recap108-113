@@ -69,8 +69,8 @@ public class Get04b extends HerOkuAppBaseUrl {
 
      //3rd: AssertAll
      softAssert.assertAll();
- }
 
+ }
 
  }
 

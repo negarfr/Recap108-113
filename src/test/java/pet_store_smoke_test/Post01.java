@@ -58,7 +58,6 @@ public class Post01 extends PetStroeBaseUrl {
                                                 ],
                                                 "status": "available"
                                             }
-
  */
 @Test
     public void post01(){
